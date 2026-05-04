@@ -11,7 +11,7 @@
 [![Serverless](https://img.shields.io/badge/Architecture-Serverless-orange)](https://azure.microsoft.com/en-us/products/functions)
 [![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](https://github.com/features/actions)
 
-*An event-driven, serverless system that continuously monitors Azure resource utilization and spending, automatically detects idle "zombie" resources, and triggers user-approved deallocation workflows — keeping your cloud environment lean, efficient, and accountable.*
+*An event-driven system that continuously monitors Azure resource utilization and spending, automatically detects idle "zombie" resources, and triggers user-approved deallocation workflows which aims to keep your cloud environment lean, efficient, and accountable.*
 
 ---
 
@@ -23,28 +23,12 @@
 
 ---
 
-## 📋 Table of Contents
-
-- [Problem Background](#-problem-background)
-- [What is CostPilot?](#-what-is-costpilot)
-- [Key Features](#-key-features)
-- [System Architecture](#-system-architecture)
-- [How It Works (System Flowchart)](#-how-it-works-system-flowchart)
-- [Idle Resource Detection Algorithm](#-idle-resource-detection-algorithm)
-- [Azure Services Used](#-azure-services-used)
-- [Performance Evaluation Metrics](#-performance-evaluation-metrics)
-- [Requirements](#-requirements)
-- [CI/CD Pipeline](#-cicd-pipeline)
-- [License](#-license)
-
----
-
 ## 🌩️ Problem Background
 
 Cloud computing has revolutionized how organizations provision IT resources through a pay-as-you-go model. However, the same flexibility that makes the cloud powerful also introduces significant cost management challenges:
 
 - **Delayed billing reports** — abnormal spending is only detected *after* charges have already accumulated.
-- **Idle / "Zombie" resources** — virtual machines, databases, and other resources left running because no one remembers to shut them down.
+- **Idle or "Zombie" resources** — virtual machines, databases, and other resources left running because no one remembers to shut them down.
 - **Manual monitoring** — time-consuming, inconsistent, and prone to human error.
 - **Lack of audit trails** — insufficient logging and access control reduce visibility into who is taking actions on resources.
 
@@ -85,7 +69,7 @@ Unlike existing solutions that rely solely on threshold alerts or rigid policy r
 
 ## 🏗️ System Architecture
 
-CostPilot is deployed as a **cloud-native, serverless application** on Microsoft Azure.
+CostPilot is deployed as a **cloud-native and serverless application** on Microsoft Azure.
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -290,6 +274,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 **CostPilot** — *Keeping your cloud lean, efficient, and accountable.*
 
-Made by [Tan Jian Ming](mailto:jianmingtan2003@gmail.com) · Universiti Teknologi Malaysia
+Prepared by [Tan Jian Ming](mailto:jianmingtan2003@gmail.com) · Universiti Teknologi Malaysia
 
 </div>
